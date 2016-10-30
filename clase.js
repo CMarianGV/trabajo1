@@ -8,7 +8,7 @@ var marco=lienzo.getContext('2d');
 
 function paint(x1,y1,x2,y2){
   marco.beginPath();//va a iniciar una linea o va a dibujar una linea
-  marco.strokeStyle="117, 56, 135"; // Stroke grueso de la linea y StrokeStyle el estilo de la linea
+  marco.strokeStyle='rgb(36, 177, 152)'; // Stroke grueso de la linea y StrokeStyle el estilo de la linea
   marco.moveTo(x1,y1);
   marco.lineTo(x2,y2);
   marco.stroke(); //ya va a dibujarlo
